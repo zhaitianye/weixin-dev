@@ -6,7 +6,7 @@ var debug = require('debug')('online_gif:server');
 var http = require('http');
 
 //设置端口号
-var port = normalizePort(process.env.PORT || '8081');
+var port = normalizePort(process.env.PORT || '8002');
 app.set('port', port);
 
 //创建HTTP服务器
