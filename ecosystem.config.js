@@ -1,6 +1,6 @@
 module.exports = {
     apps: [{
-        name: 'empty-project',
+        name: 'weixinDev',
         script: 'bin/www',
         output: "data/log/pm2_nova_out.log",
         error: "data/log/pm2_nova_error.log",
