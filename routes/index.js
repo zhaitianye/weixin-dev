@@ -13,16 +13,16 @@ const logger = require('../conf/log/log').static;
  */
 const config = {
     token: 'weixin-dev', //对应测试号接口配置信息里填的token
-    appid: 'wx05b5c9efca1d33c1', //对应测试号信息里的appID
-    secret: '1ab7a5092bf131ce769e68324afb2528', //对应测试号信息里的appsecret
+    appid: 'wx5eedf13f5886ad4a', //对应测试号信息里的appID
+    secret: 'bac6c7f903de556f0759cf970d3a1733', //对应测试号信息里的appsecret
     grant_type: 'client_credential' //默认
 };
 
 const wechatConfig = {
   "wechatRedirectUrl": "http://www.baidu.com",
   "wechatToken": "weixin-dev",
-  "appId": "wx05b5c9efca1d33c1",
-  "appSecret": "1ab7a5092bf131ce769e68324afb2528",
+  "appId": "wx5eedf13f5886ad4a",
+  "appSecret": "bac6c7f903de556f0759cf970d3a1733",
   //card: true, //enable cards
   //payment: true, //enable payment support
   //merchantId: '', //
@@ -40,7 +40,7 @@ const wechatConfig = {
 
 
 var OAuth = require('wechat-oauth');
-var api = new OAuth('wx05b5c9efca1d33c1', '1ab7a5092bf131ce769e68324afb2528');
+var api = new OAuth('wx5eedf13f5886ad4a', 'bac6c7f903de556f0759cf970d3a1733');
 
 //主页路由
 // router.get('/', function (req, res) {
